@@ -32,7 +32,7 @@ app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Me',
         name: 'Joel Malleck',
-        about: 'Created by Joel Malleck.'
+        about: 'This site was created by Joel Malleck. It uses data from mapbox.com and weatherstack.com!'
     });
 });
 
